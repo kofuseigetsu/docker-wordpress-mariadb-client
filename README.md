@@ -28,14 +28,14 @@ docker run -d --rm --name wordpress-mariadb-client -p 9000:9000 -e WORDPRESS_DB_
 
 Example:
 
-`seigetsu/alpine-mysqld:3.12-v1.0` :
+`seigetsu/wordpress-mariadb-client:5.4.2-php7.4-fpm-alpine-v1.0` :
 
 - branch `v1.0`
-- directory `3.12`
+- directory `5.4.2-php7.4-fpm-alpine`
 
 ## Automated Build configurations
 
-- SOURCE REPOSITORY : `kofuseigetsu/docker-alpine-mysqld`
+- SOURCE REPOSITORY : `kofuseigetsu/docker-wordpress-mariadb-client`
 - AUTOTEST : `Off`
 - REPOSITORY LINKS : `Off`
 - BUILD RULES :  
