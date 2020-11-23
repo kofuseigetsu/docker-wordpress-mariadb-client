@@ -40,6 +40,6 @@ Example:
 - REPOSITORY LINKS : `Off`
 - BUILD RULES :  
   | Source Type | Source | Docker Tag | Dockerfile location | Build Context | Autobuild | Build Caching |
-  | -------| -------------- | --------------- | ---------- | ----------- | --- | --- |
-  | Branch | main           | 3.12            | Dockerfile | /3.12       | Yes | No  |
-  | Branch | /^(v[0-9.]+)$/ | 3.12-{\1}       | Dockerfile | /3.12       | Yes | No  |
+  | -------| -------------- | ---------------------------- | ---------- | ------------------------ | --- | --- |
+  | Branch | main           | 5.4.2-php7.4-fpm-alpine      | Dockerfile | /5.4.2-php7.4-fpm-alpine | Yes | No  |
+  | Branch | /^(v[0-9.]+)$/ | 5.4.2-php7.4-fpm-alpine-{\1} | Dockerfile | /5.4.2-php7.4-fpm-alpine | Yes | No  |
