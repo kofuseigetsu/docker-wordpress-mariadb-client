@@ -33,7 +33,11 @@ Example:
 - branch `v1.0`
 - directory `5.4.2-php7.4-fpm-alpine`
 
-## Automated Build configurations
+## Image Repository
+
+https://hub.docker.com/r/seigetsu/wordpress-mariadb-client
+
+## Automated Build configurations on Docker Hub
 
 - SOURCE REPOSITORY : `kofuseigetsu/docker-wordpress-mariadb-client`
 - AUTOTEST : `Off`
